@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.RightMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.dao.Right">
+        <id column="id" property="id" />
+        <result column="title" property="title" />
+        <result column="creator" property="creator" />
+        <result column="created_time" property="createdTime" />
+        <result column="updator" property="updator" />
+        <result column="updated_time" property="updatedTime" />
+        <result column="href" property="href" />
+        <result column="parent_id" property="parentId" />
+        <result column="enabled" property="enabled" />
+        <result column="deleted" property="deleted" />
+        <result column="icon" property="icon" />
+    </resultMap>
+
+</mapper>

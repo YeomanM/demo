@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.AccountItemMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.dao.AccountItem">
+        <id column="item_id" property="itemId" />
+        <result column="tag_id" property="tagId" />
+        <result column="created_date" property="createdDate" />
+        <result column="account_amount" property="accountAmount" />
+    </resultMap>
+
+</mapper>
